@@ -18,13 +18,14 @@ body {
   padding: 10px;
 }
 
-.menu {
+#menu {
+  padding: 0px 0px 10px 40px;
   float: right;
   margin: 24px;
 }
 
-.menu a {
-  color: black;
+#menu a {
+  color: white;
   text-decoration: none;
   padding: 15px;
 }
@@ -138,4 +139,8 @@ footer {
   background-color: black;
   color: white;
   padding: 20px 100px 70px 100px;
+}
+
+@media screen and (max-width: 376px){
+  
 }
