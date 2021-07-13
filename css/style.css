@@ -21,7 +21,7 @@ body {
 #menu {
   padding: 0px 0px 10px 40px;
   float: right;
-  margin: 24px;
+  margin: 0px;
 }
 
 #menu a {
@@ -143,4 +143,9 @@ footer {
 
 @media screen and (max-width: 376px){
   
+}
+.audio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
